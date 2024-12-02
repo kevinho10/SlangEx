@@ -7,7 +7,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("https://slangex.onrender.com", { mode: "cors" })
+    fetch("secure-mei-applesseed-01c0d929.koyeb.app/:8000", { mode: "cors" })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
