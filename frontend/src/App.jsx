@@ -7,7 +7,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("http://localhost:5174/", { mode: "cors" })
+    fetch("https://slangex.onrender.com", { mode: "cors" })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
