@@ -25,10 +25,10 @@ function App() {
 
   return (
     <>
-      <h1>{slang}</h1>
+      <h1>{"Meme"}</h1>
       <div className="card">
         <p>
-          {meaning}
+          {"Meme"}
         </p>
       </div>
     </>
