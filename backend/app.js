@@ -6,7 +6,7 @@ app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 app.get("/", getContent);
 
-const PORT = 10000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
